@@ -1,0 +1,28 @@
+{
+  "name": "akad-bud-lab1",
+  "version": "1.0.0",
+  "description": "AKAD BUD Lab - Next.js Hello World with Infrastructure as Code",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy:iac": "bash scripts/deploy-iac.sh",
+    "deploy:app": "bash scripts/deploy-app.sh"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0"
+  }
+}
